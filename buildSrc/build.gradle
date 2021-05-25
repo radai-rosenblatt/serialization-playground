@@ -1,0 +1,4 @@
+//see https://docs.gradle.org/current/samples/sample_convention_plugins.html for what exactly is going on here
+plugins {
+    id 'groovy-gradle-plugin'
+}

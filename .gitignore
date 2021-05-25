@@ -1,0 +1,5 @@
+# gradle things
+.gradle
+build
+# IDE things
+.idea

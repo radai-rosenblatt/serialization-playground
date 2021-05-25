@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "serialization-playground"
+
+//modules
+include "avro-models"
+include "proto-models"

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.acme;
+
+option java_multiple_files = true; //cannot be set externally. must be specified in every.single.file.
+
+message SimpleProtoMessage {
+  int32 f = 1;
+}
